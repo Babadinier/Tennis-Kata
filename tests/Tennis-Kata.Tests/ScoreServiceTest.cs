@@ -22,7 +22,7 @@ namespace Tennis_Kata.Tests
         }
 
         [TestMethod]
-        public void should_return_score_equals_to_15_0_when_server_wins_point()
+        public void should_return_score_equals_to_15_0_when_score_is_0_0_and_server_wins_new_point()
         {
             var _score = new Score(new Player(ScoreEnum.Zero), new Player(ScoreEnum.Zero));
 
@@ -33,7 +33,7 @@ namespace Tennis_Kata.Tests
         }
 
         [TestMethod]
-        public void should_return_score_equals_to_15_30_when_receveir_wins_point()
+        public void should_return_score_equals_to_15_30_when_score_is_15_15_and_receiver_wins_new_point()
         {
             var _score = new Score(new Player(ScoreEnum.Fifteen), new Player(ScoreEnum.Fifteen));
 
@@ -44,7 +44,7 @@ namespace Tennis_Kata.Tests
         }
 
         [TestMethod]
-        public void should_return_score_equals_to_40_30_when_server_wins_point()
+        public void should_return_score_equals_to_40_30_when_score_is_30_30_and_server_wins_new_point()
         {
             var _score = new Score(new Player(ScoreEnum.Thirty), new Player(ScoreEnum.Thirty));
 
@@ -55,7 +55,7 @@ namespace Tennis_Kata.Tests
         }
 
         [TestMethod]
-        public void should_return_score_equals_to_40_A_when_receiver_wins_point()
+        public void should_return_score_equals_to_40_A_when_score_is_40_40_and_receiver_wins_new_point()
         {
             var _score = new Score(new Player(ScoreEnum.Fourty), new Player(ScoreEnum.Fourty));
 

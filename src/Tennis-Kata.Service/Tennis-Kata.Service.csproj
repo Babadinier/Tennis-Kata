@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="Models\Score.cs" />
     <Compile Include="Models\Player.cs" />
-    <Compile Include="Models\ScoreEnum.cs" />
+    <Compile Include="Enums\ScoreEnum.cs" />
     <Compile Include="Services\ScoreService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
